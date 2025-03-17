@@ -1,0 +1,94 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin User",
+      "email": "admin@example.com",
+      "password": "adminpassword",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "name": "Employee One",
+      "email": "employee1@example.com",
+      "password": "password1",
+      "role": "employee"
+    },
+    {
+      "id": "3",
+      "name": "Employee Two",
+      "email": "employee2@example.com",
+      "password": "password2",
+      "role": "employee"
+    },
+    {
+      "id": "3dbb",
+      "name": "Harsh Makode",
+      "email": "harsh@gmail.com",
+      "password": "harsh",
+      "role": "employee"
+    }
+  ],
+  "scrums": [
+    {
+      "id": "1",
+      "name": "Scrum Team A"
+    },
+    {
+      "id": "2",
+      "name": "Scrum Team B"
+    },
+    {
+      "id": "1da1",
+      "name": "Scrum Team C"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Task One",
+      "description": "Description for Task One",
+      "status": "To Do",
+      "scrumId": "1",
+      "assignedTo": "2",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2024-07-01"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Task Two",
+      "description": "Description for Task Two",
+      "status": "In Progress",
+      "scrumId": "2",
+      "assignedTo": "3",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2024-07-02"
+        },
+        {
+          "status": "In Progress",
+          "date": "2024-07-03"
+        }
+      ]
+    },
+    {
+      "id": "365d",
+      "title": "Task for c",
+      "description": "desc for c",
+      "status": "Done",
+      "scrumId": "1da1",
+      "assignedTo": "2",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2025-03-17"
+        }
+      ]
+    }
+  ]
+}
